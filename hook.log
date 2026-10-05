@@ -1,0 +1,5 @@
+[HOOK] {"timestamp": "2026-10-05T11:53:08.509135", "trigger": "before_agent", "cwd": "D:\\practiced_projects\\ai-agent", "tool_name": null, "user_message": "echo hello world to me using shell", "error": null}
+[HOOK] {"timestamp": "2026-10-05T11:53:09.873388", "trigger": "before_tool", "cwd": "D:\\practiced_projects\\ai-agent", "tool_name": "shell", "user_message": null, "error": null}
+[HOOK] {"timestamp": "2026-10-05T17:07:35.401238", "trigger": "before_agent", "cwd": "D:\\practiced_projects\\ai-agent", "tool_name": null, "user_message": "build a youtube UI clone using html", "error": null}
+[HOOK] {"timestamp": "2026-10-05T17:10:05.258269", "trigger": "before_tool", "cwd": "D:\\practiced_projects\\ai-agent", "tool_name": "write_file", "user_message": null, "error": null}
+[HOOK] {"timestamp": "2026-10-05T17:10:05.345530", "trigger": "before_tool", "cwd": "D:\\practiced_projects\\ai-agent", "tool_name": "list_dir", "user_message": null, "error": null}

@@ -1,0 +1,21 @@
+hooks_enabled = true
+
+[model]
+name = "agnes-2.5-flash"
+temperature = 1
+
+[[hooks]]
+name='test_before_tool'
+trigger='before_tool'
+command='python ./scripts/test_tool.py'
+
+[[hooks]]
+name='test_before_agent'
+trigger='before_agent'
+command='python ./scripts/test_tool.py'
+
+[mcp_servers.filesystem]
+enabled = true
+startup_timeout_sec = 10
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-filesystem", "D:/practiced_projects/ai-agent", "/tmp"]
